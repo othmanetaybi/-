@@ -1,0 +1,98 @@
+body{
+	background-image: url("img1.jpg");
+}
+.page {
+	background-image: url("img4.jpg");
+	border:1px solid #ffc299;
+	border-radius: 30px;
+	text-align:left;
+	width:60%;
+	padding:30px;
+	height:450px;
+	margin-top: 55px;
+}
+
+h1 {
+	font-size:30px;
+	font-family:Arial, sans serif;
+}
+
+img.pendu {
+	float:right;
+}
+
+h2 {
+	font-size:20px;
+	font-family:Arial, sans-serif;
+}
+
+#mot {
+	margin:30px 0 0 0;
+	clear:both;
+	top:100px;
+}
+
+#mot td {
+	padding:10px;
+	background-color:#ccff99;
+	border:2px inset black;
+	border-radius: 20px;
+	width:30px;
+	height:30px;
+	font-weight:bold;
+	font-size:1.5em;
+	text-align:center;
+}
+
+ #mot p{
+	visibility:hidden;
+}
+
+.clavier{
+	border:4px outset#99ff99;
+	border-radius: 20px;
+	padding:25px;
+	background-color:#cc66ff;
+}
+
+.clavier td {
+	background-color:white;
+	border:1px solid black;
+	border-radius: 20px;
+	width:30px;
+	height:30px;
+	text-align:center;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+a.lien{
+	background-color: #cc99ff;
+    color: black;
+	text-decoration:none;
+	font-size:20px;
+	text-decoration: none;
+	border: 2px solid #4CAF50;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+a.lien:hover{
+	color:red;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.page {
+	border: solid 5px @border;
+	transition: border-width 0.6s linear;
+  }
+  
+  .page:hover { border-width: 10px; }
+  .titre{
+	  margin-left: 250px;
+	  font-size: 50px;
+  }
