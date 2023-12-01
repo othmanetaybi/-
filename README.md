@@ -1,4 +1,4 @@
-# -Hangman Game
+# -Hangman Game [TP,Environnement web development]
 Hangman is a simple but engaging game that helps improve vocabulary and word recognition. I developed it with HTML CSS JS 
 
 
